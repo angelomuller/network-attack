@@ -1,17 +1,16 @@
 # Overview and notes 
 
 For this exercise I'll be running three VM's on an open network adapter.
-Note that everything performed here is within a controlled environment set on my own premises for demonstration only purposes.
-All tools needed will be listed by the end of the page for reference.
+Note that everything performed here is in a prebuilt controlled environment setup on my own CPU for demonstration purposes.
 
 Let's get started.
 
 # Reconnaissance
 
-Also known as exploration, reconnaissance refers to gather information about the network - or victim. For that, we'll first run an _nmap_ command in our linux to explore who else is up in our network.
+Also known as exploration, reconnaissance refers to gathering information about the network - or victim. For that, we'll first run an _nmap_ command in our linux cmd to explore who else is on in our network.
 <img width="705" height="851" alt="Screenshot_1" src="https://github.com/user-attachments/assets/2fe0b30e-a51d-4ab1-8372-fedd599b5417" />
 
-Note that another IP address (192.168.1.210) was found on the same network and all relative ports states.
+Note that another IP address (192.168.1.210 - Windows 10) was found on the same network as us.
 
 A quick ping check to make sure it's replying.
 <img width="1506" height="829" alt="Screenshot_2" src="https://github.com/user-attachments/assets/2dbc711c-007b-4e5e-bd59-da1a3f55dbb3" />
