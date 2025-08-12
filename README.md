@@ -1,11 +1,18 @@
-# Overview and notes 
+# Overview and notes :computer:
 
-For this exercise I'll be running three VM's on an open network adapter.
+For this exercise I'll be running three VM's on an open network adapter to simulate a real world environment where users are sharing the same network.
+Bellow is a summary of the steps we'll be covering:
+
+**. reconnaissance;
+. intrusion;
+. credential stealing;
+. bonus tool**
+
 Note that everything performed here is in a prebuilt controlled environment setup on my own CPU for demonstration purposes.
 
 Let's get started.
 
-# Reconnaissance
+# Reconnaissance :mag_right:
 
 Also known as exploration, reconnaissance refers to gathering information about the network - or victim. For that, we'll first run an _nmap_ command in our linux cmd to explore who else is on in our network.
 <img width="705" height="851" alt="Screenshot_1" src="https://github.com/user-attachments/assets/2fe0b30e-a51d-4ab1-8372-fedd599b5417" />
@@ -23,7 +30,7 @@ With all this open ports, including _SSH (22)_, _HTTP (80) and MSRPC/TCP (135)_ 
 For now, I'll only demonstrate how to steal a credential by deploying a Metasploit2 VM to this environment and adding some complexity to the exercise.
 
 
-# Intrusion 
+# Intrusion :space_invader:
 
 Let's again run _nmap_ in our network to see who else might be up.
 <img width="689" height="792" alt="Screenshot_4" src="https://github.com/user-attachments/assets/3a6701fb-759f-4927-92be-25997be37df4" />
@@ -47,7 +54,7 @@ Let's see if we can access the server via our web browser on Kali.
 
 There we have it. This is what happens in a real life situation when servers and webservers aren't setup properly. All their data is easily accessible with a few steps to any threat actor who aims to exploit the system vulnerabilities. 
 
-# Credential stealing
+# Credential stealing :unlock:
 
 Port _80_ was also open and hosting Metasploitable 2 webpage.
 <img width="1041" height="649" alt="Screenshot_11" src="https://github.com/user-attachments/assets/992b722b-b3dd-4c01-968f-394d2082f069" />
@@ -77,7 +84,7 @@ Back on Wireshark, we follow the _new login packet_ and now we have access to th
 With the priviledged login exposed and in hands like so, the possibilities of exploitation are endless - such as silently steal their data overtime for a future ransom for example. For now I'll just turn their security settings to the lowest as possible for demonstration purposes:
 <img width="946" height="790" alt="Screenshot_20" src="https://github.com/user-attachments/assets/9e944357-a2b4-40bb-adbf-ec5d51e8898d" />
 
-# Bonus chapter (Parallel attack)
+# Bonus chapter (Parallel attack) :gift:
 
 There's another known tool for Kali that would have a similar outcome as the above called the _Set Tool Kit_.
 Again, this series are for educational purposes only, so make sure to do your own due diligence before replicating this exercise.
