@@ -1,4 +1,4 @@
-# Overview and notes
+# Overview and notes 
 
 For this exercise I'll be running three VM's on an open network adapter.
 Note that everything performed here is within a controlled environment set on my own premises for demonstration only purposes.
