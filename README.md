@@ -3,13 +3,13 @@
 For this exercise I'll be running three VM's on an open network adapter to simulate a real world environment where users are sharing the same network.
 Bellow is a summary of the steps we'll be covering:
 
-**. reconnaissance;
+. Reconnaissance;
 
-. intrusion;
+. Intrusion;
 
-. credential stealing;
+. Credential stealing;
 
-. bonus tool.**
+. Bonus tool.
 
 Note that everything performed here is in a prebuilt controlled environment setup on my own CPU for demonstration purposes.
 
