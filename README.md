@@ -94,9 +94,13 @@ From here you can just follow the prompts and see the result.
 <img width="538" height="451" alt="Screenshot_26" src="https://github.com/user-attachments/assets/5abb2edc-dc33-4327-bbd7-09f3369a8238" />
 <img width="1647" height="884" alt="Screenshot_27" src="https://github.com/user-attachments/assets/2b6d216a-7496-46c3-9770-b576530dfaf0" />
 <img width="463" height="613" alt="Screenshot_28" src="https://github.com/user-attachments/assets/92133b9d-f6a2-441f-8509-f6aee0a0d16b" />
+
 <img width="1621" height="875" alt="Screenshot_29" src="https://github.com/user-attachments/assets/cf45a26b-b903-461f-8eef-ec39158cb247" />
 
+And this is just two very basic methods of how thousands of people are scammed on a daily basis and having their password and credentials stolen and exposed on the web these days.
 
+
+Stay safe!
 
 
 
